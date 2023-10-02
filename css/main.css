@@ -3,6 +3,7 @@
 // ==================================== */
 
 :root {
+  --grey: #EEEEEE
 }
 
 /* ====================================
@@ -57,7 +58,7 @@ video {
 
 
 
-.titel {
+h1 {
   color: #000;
   text-align: center;
   font-family: DM Serif Display;
@@ -70,7 +71,7 @@ img {
   margin-bottom: 25px;
 }
 
-.description {
+.titel {
   margin-bottom: 50px;
   text-align: center;
   font-family: DM Serif Display;
@@ -79,8 +80,11 @@ img {
   line-height: 26px; /* 118.182% */
 }
 
-.credit {
+.article .credit {
   text-align: center;
+}
+
+.credit {
   font-family: Heebo;
   font-size: 10px;
   font-weight: 500;
@@ -89,4 +93,35 @@ img {
 
 .time-read {
   color: #B3B3B3;
+}
+
+.reviews-header {
+  padding: 0 20px 0 20px;
+  background: var(--grey);
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 50px; /* 416.667% */
+}
+
+.titel-reviews {
+  font-family: DM Serif Display;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px; /* 118.182% */
+}
+
+.light {
+  font-weight: 400;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.sub-titel-reviews {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px; /* 127.778% */
 }
